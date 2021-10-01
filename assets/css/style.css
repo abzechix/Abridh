@@ -350,6 +350,8 @@ p {
   (max-width: 767px) {
     .about-section .notes{
       opacity: 0;
+      height: 0px;
+      width: 0px;
     }
     .about-section{
       height: auto;
