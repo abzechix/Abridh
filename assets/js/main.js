@@ -4,7 +4,7 @@ $(function () {
   "use strict"
  $(window).on('scroll', function (event) {
         var scroll = $(window).scrollTop();
-        if (scroll < 100) {
+        if (scroll < 500) {
             $(".nav-area").removeClass("sticky");
         } else {
             $(".nav-area").addClass("sticky")

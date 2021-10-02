@@ -6,6 +6,7 @@ body {
   font-style: normal;
   color: #747474;
   background-color: black;
+  overflow-x: hidden;
 }
 * {
   margin: 0;
@@ -71,7 +72,8 @@ p {
 .sticky {
   position: fixed;
   z-index: 9;
-  width: 50%;
+  background-color: red;
+  width: 100%;
 }
 .sticky .logo {
   opacity: 0.4;
@@ -94,9 +96,11 @@ p {
   }
 }
 .navbar-light .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+} 
+.navbar-toggler:focus {
   box-shadow: none;
-  border: none;
-  border-radius: 50%;
 }
 .navbar-brand .logo {
   top: 0;
