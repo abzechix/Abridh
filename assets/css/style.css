@@ -70,7 +70,6 @@ p {
 .sticky {
   position: fixed;
   z-index: 9;
-  background-color: red;
   width: 100%;
 }
 .sticky .logo {
