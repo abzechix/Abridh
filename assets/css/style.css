@@ -436,14 +436,15 @@ p {
      scale: 0.7;
     }
     .download-area .download-image{
-      width: 300px;
+      width: 250px;
     }
     .download-area .download-image .image-3{
       width: 100%;
     }
     .download-area .download-image .download-shape-1{
-      width: 150px;
-      height: 150px;
+      width: 120px;
+      height: 120px;
+      margin-left: 50px;
     }
 }
 /*footer*/
