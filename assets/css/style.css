@@ -304,6 +304,10 @@ p {
 .about-section .tns-controls button .fa-angle-right {
   right: 13%;
 }
+.about-section .tns-controls button .fa-angle-left {
+  left: 13%;
+}
+
 
 .about-section .about-active-wrapper {
   position: relative;
@@ -349,10 +353,11 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
     .about-section .notes{
-      opacity: 0;
-      height: 0px;
-      width: 0px;
+      scale: 0.7;
     }
+    .about-section .notes .tns-controls{
+      opacity: 0;
+    } 
     .about-section{
       height: auto;
     }
@@ -431,7 +436,7 @@ p {
      scale: 0.7;
     }
     .download-area .download-wrapper{
-      scale: 0.4;
+      scale: 0.1;
     }
 }
 /*footer*/

@@ -15,8 +15,10 @@ $(function () {
     container: ".about-active",
     items: 1,
     slideBy: "page",
-    autoplay: false,
+    autoplay: true,
     nav: false,
+    autoplayTimeout: 5500,
+    autoplayButtonOutput: false,
     controlsText: [
       '<i class="slideCtrl fa fa-angle-left prev" aria-hidden="true"></i>',
       '<i class=" slideCtrl fa fa-angle-right next" aria-hidden="true"></i>',
