@@ -70,6 +70,7 @@ p {
 .sticky {
   position: fixed;
   z-index: 9;
+  width: 100%;
 }
 .sticky .logo {
   opacity: 0.4;
@@ -250,7 +251,7 @@ p {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-    .about-section .about-active-wrapper .section-title {
+  .about-section .about-active-wrapper .section-title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,17 +260,17 @@ p {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-    .about-section .about-active-wrapper .section-title h1 {
+  .about-section .about-active-wrapper .section-title h1 {
     width: 100%;
     font-size: 18px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-    .about-section .about-active-wrapper .section-title p{
+  .about-section .about-active-wrapper .section-title p {
     margin-top: 10px;
     width: 60%;
-    font-size: 14px;    
+    font-size: 14px;
   }
 }
 .about-section .tns-controls {
@@ -307,7 +308,6 @@ p {
 .about-section .tns-controls button .fa-angle-left {
   left: 13%;
 }
-
 
 .about-section .about-active-wrapper {
   position: relative;
@@ -352,15 +352,15 @@ p {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-    .about-section .notes{
-      scale: 0.7;
-    }
-    .about-section .notes .tns-controls{
-      opacity: 0;
-    } 
-    .about-section{
-      height: auto;
-    }
+  .about-section .notes {
+    scale: 0.7;
+  }
+  .about-section .notes .tns-controls {
+    opacity: 0;
+  }
+  .about-section {
+    height: auto;
+  }
 }
 /*download*/
 .download-area {
@@ -421,35 +421,32 @@ p {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-    .download-area{
-      width: 100%;
-      height: auto;
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-    .download-content h1{
-      font-size: 18px;
-    }
-    .download-content p{
-      font-size: 12px;
-      letter-spacing: 1px;
-    }
-    .download-content ul li{
-     scale: 0.7;
-     transform: translateX(-50px) ;
-    }
-    .download-area .download-image{
-      width: 250px;
-      
-    }
-    .download-area .download-image .image-3{
-      width: 75%;
-    }
-    .download-area .download-image .download-shape-1{
-      width: 120px;
-      height: 120px;
-      margin-left: 50px;
-    }
+  .download-area {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+  .download-content h1 {
+    font-size: 18px;
+  }
+  .download-content p {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .download-content ul li {
+    scale: 0.7;
+  }
+  .download-area .download-image {
+    width: 250px;
+  }
+  .download-area .download-image .image-3 {
+    width: 75%;
+  }
+  .download-area .download-image .download-shape-1 {
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+  }
 }
 /*footer*/
 .footer-area {
@@ -474,7 +471,7 @@ p {
   font-size: 30px;
   font-weight: 600;
 }
-.footer-title ul li{
+.footer-title ul li {
   width: 100%;
 }
 .footer-title ul li a {
@@ -552,18 +549,16 @@ p {
   .footer-link {
     padding-top: 20px;
   }
-  .footer-area .logo{
+  .footer-area .logo {
     scale: 0.7;
   }
-  .footer-area p{
+  .footer-area p {
     font-size: 16px;
   }
   .footer-title .title h4 {
     font-size: 18px;
   }
-  .footer-link .link li a{
+  .footer-link .link li a {
     font-size: 16px;
   }
-
-  
 }
