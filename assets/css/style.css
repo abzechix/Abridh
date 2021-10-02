@@ -422,7 +422,10 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
     .download-area{
-      padding-left: 10px;
+      width: 100%;
+      height: auto;
+      padding-left: 50px;
+      padding-right: 50px;
     }
     .download-content h1{
       font-size: 18px;
@@ -430,16 +433,17 @@ p {
     .download-content p{
       font-size: 12px;
       letter-spacing: 1px;
-      padding-left: 0;
     }
     .download-content ul li{
      scale: 0.7;
+     transform: translateX(-50px) ;
     }
     .download-area .download-image{
       width: 250px;
+      
     }
     .download-area .download-image .image-3{
-      width: 100%;
+      width: 75%;
     }
     .download-area .download-image .download-shape-1{
       width: 120px;
