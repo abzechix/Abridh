@@ -5,12 +5,12 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   color: #747474;
+  background-color: black;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black;
 }
 img {
   max-width: 100%;
