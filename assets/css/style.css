@@ -435,8 +435,15 @@ p {
     .download-content ul li{
      scale: 0.7;
     }
-    .download-area .download-wrapper{
-      scale: 0.1;
+    .download-area .download-image{
+      width: 300px;
+    }
+    .download-area .download-image .image-3{
+      width: 100%;
+    }
+    .download-area .download-image .download-shape-1{
+      width: 150px;
+      height: 150px;
     }
 }
 /*footer*/
