@@ -95,7 +95,7 @@ p {
 .navbar-light .navbar-toggler {
   color: transparent;
   border-color: transparent;
-} 
+}
 .navbar-toggler:focus {
   box-shadow: none;
 }
@@ -558,6 +558,9 @@ p {
   (max-width: 767px) {
   .footer-link {
     padding-top: 20px;
+  }
+  .footer-link .link{
+    padding-left: 0px;
   }
   .footer-area .logo {
     margin-left: -16px;
